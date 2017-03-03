@@ -4,7 +4,7 @@
 using namespace System;
 bool Guess(int number)
 {
-	static int target = -1;
+	staic int target = -1;
 	if (target == -1) {
 		target = r.Next() % 100 + 1;
 	}
